@@ -31,3 +31,5 @@ The project is organized into the following key components:
 You can execute all the tests cases by running the following command :
 
     pytest
+
+Notes : After the execution, pytest will generate two reports, one on HTML format and other on XML with the tests results.
