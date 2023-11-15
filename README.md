@@ -32,4 +32,4 @@ You can execute all the tests cases by running the following command :
 
     pytest
 
-Notes : After the execution, pytest will generate two reports, one on HTML format and other on XML with the tests results.
+Notes : After the execution, pytest will generate an HTML report with the tests results.
