@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan de Automatización</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        h1, h2, h3 {
+            color: #4285f4;
+            text-align: center;
+        }
+
+        h2, h3 {
+            margin-top: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-top: 10px;
+        }
+
+        hr {
+            border: 1px solid #ddd;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Plan de Automatización</h1>
+
+    <h2> Estrategia del plan de automatización</h2>
+    <ul>
+        <li><u><strong>Selección de herramienta y/o framework de automatización:</strong></u></li>
+        <ul>
+            <li>• Python: Se seleccionó Python como lenguaje de programación debido a su sintaxis clara, versatilidad y porque es uno de los lenguajes mas sencillos y con curva de aprendizaje buena.</li>
+            <li>• Selenium: Selenium se eligió como la herramienta principal para la automatización de pruebas de interfaz de usuario (UI).</li>
+            <li>• Pytest: Pytest se adoptó como el framework de pruebas debido a su simplicidad, flexibilidad y características de informes y registro.</li>
+            <li>• Page Object Model (POM): Se implementó el patrón POM para mejorar la modularidad y mantenibilidad del código.</li>
+        </ul>
+        <li><u><strong>¿Por qué la elección de la herramienta y/o framework de automatización?</strong></u></li>
+        <ul>
+            <li>• Python: La elección de Python se basa en su amplia comunidad de desarrollo, extensa biblioteca estándar y su uso generalizado en el campo de la automatización y desarrollo de pruebas.</li>
+            <li>• Selenium: Selenium es una herramienta líder en la industria para la automatización de pruebas de UI y cuenta con el fuerte de tener mucho soporte.</li>
+            <li>• Pytest: Pytest se seleccionó por su simplicidad y potencia.</li>
+            <li>• Page Object Model (POM): El patrón POM se adoptó para mejorar la reutilización del código, reducir la duplicación y mejorar la mantenibilidad.</li>
+        </ul>
+        <li><u><strong>Selección del aplicativo sujeto a pruebas de automatización.</strong></u>
+            <ul>
+                <li><u>Aplicativo :</u> https://demoqa.com/</li>
+            </ul>
+            <ul>
+                <li><u>Requisitos para ejecutar las pruebas:</u> Detallado en el archivo README.md de git.</li>
+            </ul>
+        </li>
+        <li><u><strong>Descripción de cada caso de uso.</strong></u></li>
+        <ul>
+            <li><u>Inicio de Sesión:</u></li>
+            <ul>
+                <li> • Probar el inicio de sesión con credenciales válidas.</li>
+            </ul>
+            <li><u>Navegación por Secciones:</u></li>
+            <ul>
+                <li> • Validar la navegación fluida entre las secciones principales de la sección "Bookstore".</li>
+            </ul>
+            <li><u>Interacción con diferentes botones e inputs:</u></li>
+            <ul>
+                <li>• Comprobar la entrada de datos en inputs en las distintas pantallas.</li>
+            </ul>
+            <li><u>Verificación de Mensajes e interacción con alerts:</u></li>
+            <ul>
+                <li>• Confirmar la visualización de mensajes de éxito después de ciertas acciones e interactuar con distintos alerts.</li>
+            </ul>
+        </ul>
+    </ul>
+
+    <hr>
+
+    <h2>Buenas prácticas para la organización y ejecución de las pruebas.</h2>
+    <li><u><strong> Buenas prácticas :</strong></u></li>
+    <ul>
+        <li>• <u>Utilización del Patrón Page Object (POM):</u> Organizar el código utilizando el patrón Page Object, que separa la lógica de la interfaz de usuario en clases reutilizables. Cada página o componente de la interfaz debe tener su propia clase Page Object.</li>
+    </ul>
+    <ul>
+        <li>• <u>Dividir los Tests en Archivos y Carpetas Lógicas:</u> Estructurar las pruebas en archivos y carpetas basadas en la funcionalidad o el módulo que están probando. Esto facilita la navegación y mantenimiento del código.</li>
+    </ul>
+    <ul>
+        <li>• <u>Informes Detallados:</u> La configuración de pruebas para generar informes detallados por ejemplo, como en este caso, informes HTML con pytest. Esto facilita la identificación y corrección de problemas cuando se producen errores.</li>
+    </ul>
+    <ul>
+        <li>• <u>Code Review:</u> Fomentar el code review entre los miembros del equipo. Esta practica permite identificar problemas antes de que se fusionen los cambios.</li>
+    </ul>
+
+</body>
+</html>
