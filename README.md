@@ -3,7 +3,7 @@
 ## 🏗️ Project Structure <a name="project-structure"></a>
 
 The project is organized into the following key components:
-- `pages`: Screens organized as separate class files.
+- `screens`: Screens organized as separate class files.
 - `step_defs`: Step definition files for each test
 - `reports`: Contains the reports that are generated after every execution.
 
