@@ -12,10 +12,9 @@ The project is organized into the following key components:
     .
     ├── reports                        # Reports files
     │   └── reports.html               # Automated tests report on HTML format
-    │   └── report.xml                 # Automated tests report on XML format
     ├── tests                          # Automated tests
     │   ├── step_defs                  # Step definition modules for each test case
-    │   └── conftest.py                # Shared configuration and functions for tests
+    │   └── conftest.py                # Shared configuration for tests
     ├── pytest.ini                     # Command line options
     └── README.md
 
